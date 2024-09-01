@@ -1,0 +1,591 @@
+fileFormatVersion: 2
+guid: 6093d68781f6af24b9b322325c28f28a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 86
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 6, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f54c517780c0604990fb28ad6f0fe61
+      internalID: -99553169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 279
+        width: 88
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 6, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a67630140c35ae47bcba99de6029bb2
+      internalID: -430949655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 279
+        width: 87
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 6, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f359ab1b1ce15184c85b7c762f18a65b
+      internalID: -893505412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_3
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 279
+        width: 86
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 7, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a288ba83fb66454abf43c8fa8a2d6ad
+      internalID: -594426682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_4
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 279
+        width: 82
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 8, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28598e91810b1749b848ae3f3daeddc
+      internalID: -282924651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_5
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 279
+        width: 82
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 6, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1b1405e7596704b9c6b7f4ba711a75
+      internalID: 913175032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 279
+        width: 86
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 5, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d525b6a324f8e8c4aa46a6c1ce991b92
+      internalID: -545376643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_7
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 279
+        width: 85
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 5, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5de5ca10e9d3f4da9e7779bce6d47f
+      internalID: -1495813199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 279
+        width: 89
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 6, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c8831955728a647ab97efa24ec65ba
+      internalID: -1054225527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 135
+        width: 83
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff11a90dcbae21946b750798122b1bfc
+      internalID: -1839266160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_10
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 135
+        width: 83
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da9af7908120a548b4da19a90ce84c0
+      internalID: -1736019493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 134
+        width: 83
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8df4227ff11fb740838955951cd76cb
+      internalID: 633682003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_12
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 135
+        width: 83
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198d6ef19b268b94e958d4b7e1ad23a1
+      internalID: -1933286372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_13
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 135
+        width: 83
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2434514dd6a799842834e58a5ea81ac7
+      internalID: -1326336944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_14
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 135
+        width: 83
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3293830e54b4df14c83031e8941a3fb7
+      internalID: 357276119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3
+        width: 83
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6aa2b15e03497449b2433bd9e528223
+      internalID: -118552147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_17
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3
+        width: 83
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ec95daa0f696c4c8e97ccff20da935
+      internalID: -1774632445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_18
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 3
+        width: 83
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4fb05ef0b031b4085f327a580c61a8
+      internalID: -288287963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_19
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 3
+        width: 83
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055be933968e2964b89e23f16aa6743e
+      internalID: 2027483888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_20
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 3
+        width: 83
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066c73d6455a4074587590272edcaf40
+      internalID: -1470228657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CAPITAN AMERICA CAMINA_21
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 3
+        width: 83
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8baf0e730926b224a94b426eb3cd62c1
+      internalID: -1896267983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CAPITAN AMERICA CAMINA_0: -99553169
+      CAPITAN AMERICA CAMINA_1: -430949655
+      CAPITAN AMERICA CAMINA_10: -1736019493
+      CAPITAN AMERICA CAMINA_11: 633682003
+      CAPITAN AMERICA CAMINA_12: -1933286372
+      CAPITAN AMERICA CAMINA_13: -1326336944
+      CAPITAN AMERICA CAMINA_14: 357276119
+      CAPITAN AMERICA CAMINA_15: 768615959
+      CAPITAN AMERICA CAMINA_16: -118552147
+      CAPITAN AMERICA CAMINA_17: -1774632445
+      CAPITAN AMERICA CAMINA_18: -288287963
+      CAPITAN AMERICA CAMINA_19: 2027483888
+      CAPITAN AMERICA CAMINA_2: -893505412
+      CAPITAN AMERICA CAMINA_20: -1470228657
+      CAPITAN AMERICA CAMINA_21: -1896267983
+      CAPITAN AMERICA CAMINA_22: 442982638
+      CAPITAN AMERICA CAMINA_3: -594426682
+      CAPITAN AMERICA CAMINA_4: -282924651
+      CAPITAN AMERICA CAMINA_5: 913175032
+      CAPITAN AMERICA CAMINA_6: -545376643
+      CAPITAN AMERICA CAMINA_7: -1495813199
+      CAPITAN AMERICA CAMINA_8: -1054225527
+      CAPITAN AMERICA CAMINA_9: -1839266160
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
