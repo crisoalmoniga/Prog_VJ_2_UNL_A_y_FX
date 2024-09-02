@@ -12,15 +12,17 @@ public class Mover : MonoBehaviour
     private float moverHorizontal;
     private Vector2 direccion;
 
-    // Variable para referenciar otros componentes del objeto
+    // Variables para referenciar otros componentes del objeto
     private Rigidbody2D miRigidbody2D;
     private Animator miAnimator;
+    private SpriteRenderer miSprite;
 
     // Código ejecutado cuando el objeto se activa en el nivel
     private void OnEnable()
     {
         miRigidbody2D = GetComponent<Rigidbody2D>();
         miAnimator = GetComponent<Animator>();
+        miSprite = GetComponent<SpriteRenderer>();
     }
 
     // Código ejecutado en cada frame del juego (intervalo variable)
@@ -29,14 +31,17 @@ public class Mover : MonoBehaviour
         moverHorizontal = Input.GetAxis("Horizontal");
         direccion = new Vector2(moverHorizontal, 0f);
 
-        // Reproducir la animación Jugador_camina si hay movimiento horizontal
-        if (moverHorizontal != 0)
+        // Actualiza la animación según la velocidad en el eje X
+        miAnimator.SetInteger("Velocidad", (int)Mathf.Abs(miRigidbody2D.velocity.x));
+
+        // Voltea el sprite según la dirección del movimiento
+        if (moverHorizontal > 0)
         {
-            miAnimator.Play("Jugador_camina");
+            miSprite.flipX = false;  // Mira a la derecha
         }
-        else
+        else if (moverHorizontal < 0)
         {
-            miAnimator.Play("Jugador");
+            miSprite.flipX = true;   // Mira a la izquierda
         }
     }
 
@@ -46,5 +51,3 @@ public class Mover : MonoBehaviour
         miRigidbody2D.AddForce(direccion * velocidad);
     }
 }
-
-
