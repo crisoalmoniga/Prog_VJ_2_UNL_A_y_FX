@@ -16,6 +16,9 @@ public class Mover : MonoBehaviour
     private Rigidbody2D miRigidbody2D;
     private Animator miAnimator;
     private SpriteRenderer miSprite;
+    private CircleCollider2D miCollider2D;
+
+    private int saltarMask;
 
     // Código ejecutado cuando el objeto se activa en el nivel
     private void OnEnable()
@@ -23,31 +26,36 @@ public class Mover : MonoBehaviour
         miRigidbody2D = GetComponent<Rigidbody2D>();
         miAnimator = GetComponent<Animator>();
         miSprite = GetComponent<SpriteRenderer>();
+        miCollider2D = GetComponent<CircleCollider2D>();
+        saltarMask = LayerMask.GetMask("Pisos", "Plataformas");
     }
 
     // Código ejecutado en cada frame del juego (intervalo variable)
-    private void Update()
+    void Update()
     {
         moverHorizontal = Input.GetAxis("Horizontal");
         direccion = new Vector2(moverHorizontal, 0f);
 
-        // Actualiza la animación según la velocidad en el eje X
-        miAnimator.SetInteger("Velocidad", (int)Mathf.Abs(miRigidbody2D.velocity.x));
+        int velocidadX = (int)miRigidbody2D.velocity.x;
+        miSprite.flipX = velocidadX < 0f;
 
-        // Voltea el sprite según la dirección del movimiento
-        if (moverHorizontal > 0)
-        {
-            miSprite.flipX = false;  // Mira a la derecha
-        }
-        else if (moverHorizontal < 0)
-        {
-            miSprite.flipX = true;   // Mira a la izquierda
-        }
+        // Actualiza la animación según la velocidad en el eje X
+        miAnimator.SetInteger("Velocidad", velocidadX);
+
+        bool enAire = !EnContactoConPlataforma();
+        miAnimator.SetBool("EnAire", enAire);
+
+        Debug.Log("EnAire: " + enAire);  // Agrega esta línea para verificar el valor de EnAire
     }
 
-    // Código ejecutado a intervalos fijos para física
+
     private void FixedUpdate()
     {
         miRigidbody2D.AddForce(direccion * velocidad);
+    }
+
+    private bool EnContactoConPlataforma()
+    {
+        return miCollider2D.IsTouchingLayers(saltarMask);
     }
 }

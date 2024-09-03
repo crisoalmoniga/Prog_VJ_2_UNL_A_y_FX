@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2080479901438866686}
   - component: {fileID: 4046337577025779377}
   - component: {fileID: 1809713640605798062}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Piso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
