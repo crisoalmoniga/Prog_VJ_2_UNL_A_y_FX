@@ -43,6 +43,9 @@ TagManager:
   - name: Fondo
     uniqueID: 2444005575
     locked: 0
+  - name: Adornos
+    uniqueID: 668813859
+    locked: 0
   - name: Mapa
     uniqueID: 3866153817
     locked: 0
