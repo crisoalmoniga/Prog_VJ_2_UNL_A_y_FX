@@ -137,7 +137,7 @@ TextureImporter:
         x: 94
         y: 279
         width: 88
-        height: 111
+        height: 112
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 6, z: 0, w: 0}
@@ -324,9 +324,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 92
-        y: 135
+        y: 136
         width: 83
-        height: 114
+        height: 116
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -345,8 +345,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 190
-        y: 134
-        width: 83
+        y: 136
+        width: 98
         height: 114
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -365,10 +365,10 @@ TextureImporter:
       name: CAPITAN AMERICA CAMINA_12
       rect:
         serializedVersion: 2
-        x: 296
-        y: 135
+        x: 298
+        y: 140
         width: 83
-        height: 114
+        height: 116
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,9 +387,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 390
-        y: 135
+        y: 139
         width: 83
-        height: 114
+        height: 113
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -408,9 +408,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 503
-        y: 135
+        y: 140
         width: 83
-        height: 114
+        height: 111
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,13 +428,13 @@ TextureImporter:
       name: CAPITAN AMERICA CAMINA_16
       rect:
         serializedVersion: 2
-        x: 6
-        y: 3
-        width: 83
-        height: 114
+        x: 0
+        y: 2
+        width: 97
+        height: 118
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 5, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -450,7 +450,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 102
-        y: 3
+        y: 8
         width: 83
         height: 114
       alignment: 0
@@ -470,13 +470,13 @@ TextureImporter:
       name: CAPITAN AMERICA CAMINA_18
       rect:
         serializedVersion: 2
-        x: 200
+        x: 194
         y: 3
-        width: 83
-        height: 114
+        width: 89
+        height: 117
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 4, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -491,10 +491,10 @@ TextureImporter:
       name: CAPITAN AMERICA CAMINA_19
       rect:
         serializedVersion: 2
-        x: 298
+        x: 292
         y: 3
-        width: 83
-        height: 114
+        width: 101
+        height: 115
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -513,9 +513,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 395
-        y: 3
+        y: 1
         width: 83
-        height: 114
+        height: 117
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,9 +534,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 494
-        y: 3
-        width: 83
-        height: 114
+        y: 0
+        width: 84
+        height: 115
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
