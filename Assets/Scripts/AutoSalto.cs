@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AutoSalto : MonoBehaviour
 {
-    // Variables a configurar desde el editor
+    //Variables a configurar desde el editor
     [Header("Configuracion")]
     [SerializeField] private float fuerzaSalto = 5f;
 

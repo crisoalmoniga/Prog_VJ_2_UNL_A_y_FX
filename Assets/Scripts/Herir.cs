@@ -1,11 +1,10 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Herir : MonoBehaviour
 {
-    // Variables a configurar desde el editor
+    //Variables a configurar desde el editor
     [Header("Configuracion")]
     [SerializeField] float puntos = 5f;
 
@@ -15,7 +14,7 @@ public class Herir : MonoBehaviour
         {
             Jugador jugador = collision.gameObject.GetComponent<Jugador>();
             jugador.ModificarVida(-puntos);
-            Debug.Log(" PUNTOS DE DAÑO REALIZADOS AL JUGADOR " + puntos);
+            Debug.Log("PUNTOS DE DAÑO REALIZADOS" + puntos);
         }
     }
 }

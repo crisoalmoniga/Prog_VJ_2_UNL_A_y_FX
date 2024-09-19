@@ -13,7 +13,6 @@ public class Jugador : MonoBehaviour
         Debug.Log(EstasVivo());
     }
 
-
     private bool EstasVivo()
     {
         return vida > 0;
@@ -22,7 +21,7 @@ public class Jugador : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (!collision.gameObject.CompareTag("Meta")) { return; }
-
         Debug.Log("GANASTE");
     }
+
 }
